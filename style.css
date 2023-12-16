@@ -3,7 +3,7 @@ body{
   padding: 0;
   box-sizing: border-box;
 }
-#div_pas{
+#div_pas,#div_pas1{
 background-image:linear-gradient(#FFC7C7,#ffff);
 width: 350px;
 height: auto;
@@ -14,7 +14,7 @@ border-radius: 15px;
 
 
 }
-#div_pas input{
+#div_pas input,#div_pas1 input {
   box-sizing: border-box;
   width: 90%;
   text-align: left;
@@ -28,7 +28,7 @@ border-radius: 15px;
   
   
 }
-#div_pas span{
+#div_pas span,#div_pas1 #hide_show1{
   background-color: #7070e844;
   height: 40px;
   display: block;

@@ -1,10 +1,7 @@
 const div_pas=document.getElementById('div_pas')
-// div_pas.style.backgroundImage="linear-gradient(#FFC7C7,#ffff)";
 const input_id = document.getElementById('input_id')
 // input_id.style.backgroundColor="red";
 const hide_show=document.getElementById('hide_show');
-// hide_show.style.backgroundColor="red"
-// input_class.style.backgroundImage="linear-gradient(#FFC7C7,#fjff)";
 hide_show.onclick=function(){
     if(input_id.type==="password"){
         input_id.type="text"
@@ -12,21 +9,20 @@ hide_show.onclick=function(){
     
 }
 
+  ///////////////////////////////checkBox
+const div_pas1=document.getElementById('div_pas1')
+const input_id1 = document.getElementById('input_id1')
+const hide_show1=document.getElementById('hide_show1');
+
+
+hide_show1.onclick=function(){
   
+  if( hide_show1.checked===true){
+    document.body.style.backgroundColor="red"
+    input_id1.type='text'
+   }else  {document.body.style.backgroundColor="green";
+   input_id1.type='PASSWORD'
 
+}
 
-// input_pass.type = "password"
-// js for hide-show password
-
-// var input_pass = document.getElementById("input-pass");
-// var hide_show = document.getElementById("hide-show");
-
-// hide_show.onclick = function(){
-//     if(input_pass.type == "password"){
-//         input_pass.type = "text";
-//     }
-//     else{
-// //         input_pass.type = "password"
-//     }
-// }
 
