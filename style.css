@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#div_pas{
+background-image:linear-gradient(#FFC7C7,#ffff);
+width: 350px;
+height: auto;
+margin: 50px auto;
+border:  1px solid rgb(193, 193, 212);
+text-align: center;
+border-radius: 15px;
+
+
+}
+#div_pas input{
+  box-sizing: border-box;
+  width: 90%;
+  text-align: left;
+  height: 40px;
+  border:  1px solid rgb(193, 193, 212);
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size:30px;
+  opacity: 0.6;
+  padding-left: 20px;
+  
+  
+}
+#div_pas span{
+  background-color: #7070e844;
+  height: 40px;
+  display: block;
+  width: 90%;
+  text-align: center;
+  margin: 10px auto;
+  line-height: 40px;
+  border-radius: 10px;
+  border:  1px solid rgb(193, 193, 212);
+  font-size: 25px;
+  color: #d356568e;
+   }
+  
